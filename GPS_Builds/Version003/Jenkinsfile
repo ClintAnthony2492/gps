@@ -18,7 +18,7 @@ node {
             echo "----------------------------------------------------------------------"
             // Get build from GitHub
             step([$class: 'WsCleanup'])
-            git 'https://github.com/ClintAnthony2492/test'
+            git 'https://github.com/ClintAnthony2492/gps'
 
             GitHub_Pull = 'PASS'
             echo "GitHub Pull Complete"

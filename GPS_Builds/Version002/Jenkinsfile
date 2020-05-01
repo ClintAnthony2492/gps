@@ -10,7 +10,7 @@ node {
             echo "GitHub Pull in progress..."
             echo "----------------------------------------------------------------------"
             step([$class: 'WsCleanup'])
-            git 'https://github.com/ClintAnthony2492/test'
+            git 'https://github.com/ClintAnthony2492/gps'
 
             echo "GitHub Pull Complete"
         }
