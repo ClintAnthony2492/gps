@@ -11,7 +11,7 @@ node {
             echo "----------------------------------------------------------------------"
             // Get Code from GitHub
             step([$class: 'WsCleanup'])
-            git 'https://github.com/ClintAnthony2492/test'
+            git 'https://github.com/ClintAnthony2492/gps'
 
             echo "GitHub Pull Complete"
         }
